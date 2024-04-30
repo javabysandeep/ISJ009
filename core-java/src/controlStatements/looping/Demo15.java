@@ -10,6 +10,7 @@ public class Demo15 {
         // factor will be if the remainder is zero
 
         // 28 --> 1, 2, 4, 7, 14
+        //6 --> 1, 2, 3
         int number = 620;
         for (int i = 1; i <= number / 2; i++) {
             if (number % i == 0) {

@@ -13,6 +13,8 @@ public class Demo16 {
                 sumOfFactors = sumOfFactors + i;
             }
         }
-        System.out.println(number == sumOfFactors ? "Perfect" : "Not a perfect");
+        System.out.println(
+                number == sumOfFactors
+                        ? "Perfect" : "Not a perfect");
     }
 }
